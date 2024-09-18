@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rangkuman Materi</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=SUSE:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Poppins", Arial, Helvetica, sans-serif;
+      }
+
+      h1 {
+        text-align: center;
+        margin-top: 10px;
+      }
+
+      main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .desc-card {
+        padding: 20px;
+        width: 1000px;
+        margin: 15px;
+        border-radius: 15px;
+        box-shadow: 3px 3px 3px #000;
+        background-color: whitesmoke;
+        text-align: justify;
+      }
+
+      /* img {
+        margin-top: 15px;
+      } */
+
+      @media screen and (max-width: 1000px) {
+        .desc-card {
+          width: 800px;
+        }
+      }
+
+      @media screen and (max-width: 800px) {
+        .desc-card {
+          width: 678px;
+        }
+      }
+      @media screen and (max-width: 678px) {
+        .desc-card {
+          width: 500px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>HTML Basic Tag</h1>
+    <main>
+      <div class="desc-card">
+        <h2>HTML (Hypertext Markup Language)</h2>
+        <p>
+          HTML (Hypertext Markup Language): Bahasa markup yang digunakan untuk
+          membuat halaman web dan menampilkan informasi di browser. HTML terdiri
+          dari tag yang memberi tahu browser cara menampilkan konten. Standar
+          HTML dikelola oleh W3C.
+        </p>
+      </div>
+      <div class="desc-card">
+        <h2>Sejarah HTML dan XHTML</h2>
+        <p>
+          Dimulai dengan HTML 2. 0 yang distandarisasi pada tahun 1995 (dan yang
+          sekarang kita kenal dan digunakan saat saat ini, HTML 5.0), kemudian
+          dikembangkan lebih lanjut pada tahun 2007 dengan XHTML 1. 1 yang
+          menggabungkan HTML dan XML.
+        </p>
+      </div>
+      <div class="desc-card">
+        <h2>Struktur HTML</h2>
+        <p>
+          HTML memiliki tiga bagian utama:
+          <strong>&lt;html&gt;&lt;/html&gt;</strong>,
+          <strong>&lt;head&gt;&lt;/head&gt;</strong>, dan
+          <strong>&lt;body&gt;&lt;/body&gt;</strong>.
+          <strong>&lt;html&gt;</strong> berfungsi sebagai elemen root atau
+          pembungkus utama dari seluruh dokumen HTML,
+          <strong>&lt;head&gt;</strong> berisi informasi tentang dokumen, dan
+          <strong>&lt;body&gt;</strong> menampilkan konten untuk pengguna.
+        </p>
+        <!-- <img src="img/struktur-document.png" alt="Struktur document HTML" /> -->
+      </div>
+      <div class="desc-card">
+        <h2>Tag HTML</h2>
+        <ul>
+          <li>
+            Heading: Menggunakan tag
+            <strong>&lt;h1&gt;&lt;/h1&gt;</strong> hingga
+            <strong>&lt;h6&gt;&lt;/h6&gt;</strong> untuk membuat judul dan
+            subjudul.
+          </li>
+          <li>
+            Paragraf: Tag <strong>&lt;p&gt;&lt;/p&gt;</strong> digunakan untuk
+            menulis paragraf. <strong>&lt;br /&gt;</strong> untuk line break,
+            dan <strong>&lt;hr /&gt;</strong> untuk garis horizontal.
+          </li>
+          <li>
+            Font: Tag seperti <strong>&lt;b&gt;&lt;/b&gt;</strong>,
+            <strong>&lt;i&gt;&lt;/i&gt;</strong>, dan
+            <strong>&lt;u&gt;&lt;/u&gt;</strong> digunakan untuk menebalkan,
+            memiringkan, dan menggarisbawahi teks.
+          </li>
+          <li>
+            Image: Tag <strong>&lt;img&gt;</strong> digunakan untuk menampilkan
+            gambar dengan atribut seperti <strong>src</strong>,
+            <strong>width</strong>, <strong>height</strong>,
+            <strong>alt</strong>, dan <strong>title</strong>.
+          </li>
+          <li>
+            Anchor/Hyperlink: Tag <strong>&lt;a&gt;&lt;/a&gt;</strong> digunakan
+            untuk membuat tautan ke halaman lain atau bagian dari halaman yang
+            sama.
+          </li>
+          <li>
+            Komentar: Menggunakan <strong>&lt;!-- komentar --&gt;</strong> untuk
+            menyisipkan catatan yang tidak ditampilkan oleh browser.
+          </li>
+        </ul>
+      </div>
+    </main>
+  </body>
+</html>
