@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Percobaan 2</title>
+  </head>
+  <body>
+    <!-- element ul -->
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Javascript</li>
+    </ul>
+
+    <!-- element ol -->
+    <ol>
+      <li>Budi</li>
+      <li>Asri</li>
+      <li>Mamat</li>
+    </ol>
+
+    <!-- element table sederhana -->
+    <table border="1">
+      <tr>
+        <th>No</th>
+        <th>NIM</th>
+        <th>Nama</th>
+        <th>Prodi</th>
+      </tr>
+
+      <tr>
+        <td>1</td>
+        <td>F55120018</td>
+        <td>Khairul Insan Karim</td>
+        <td>S1-Teknik Informatika</td>
+      </tr>
+
+      <tr>
+        <td>2</td>
+        <td>F5512100</td>
+        <td>Asep Permadi</td>
+        <td>S1-Teknik Informatika</td>
+      </tr>
+    </table>
+
+    <!-- Table  colspan dan rowspan -->
+    <table border="1">
+      <tr>
+        <th>No</th>
+        <th>NIM</th>
+        <th>Nama</th>
+        <th>Prodi</th>
+        <th>Asdos</th>
+        <th colspan="5">Absen</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>F55120018</td>
+        <td>Khairul Insan Karim</td>
+        <td>S1-Teknik Informatika</td>
+        <td rowspan="2">Pemrograman Web-1 Kelas B</td>
+        <td>Hadir</td>
+        <td>Alpa</td>
+        <td>Hadir</td>
+        <td>Hadir</td>
+        <td>Hadir</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>F5512100</td>
+        <td>Asep Permadi</td>
+        <td>S1-Teknik Informatika</td>
+        <td>Hadir</td>
+        <td>Sakit</td>
+        <td>Hadir</td>
+        <td>Izin</td>
+        <td>Hadir</td>
+      </tr>
+    </table>
+
+    <!-- Size table -->
+    <table border="1" width="100%">
+      <tr>
+        <th height="40px">No</th>
+        <th>NIM</th>
+        <th width="40%">Nama</th>
+        <th>Prodi</th>
+        <th>Asdos</th>
+        <th colspan="5">Absen</th>
+      </tr>
+
+      <tr>
+        <td>1</td>
+        <td>F55120018</td>
+        <td>Khairul Insan Karim</td>
+        <td>S1-Teknik Informatika</td>
+        <td rowspan="2">Pemrograman Web-1 Kelas B</td>
+        <td>Hadir</td>
+        <td>Alpa</td>
+        <td>Hadir</td>
+        <td>Hadir</td>
+        <td>Hadir</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>F5512100</td>
+        <td>Asep Permadi</td>
+        <td>S1-Teknik Informatika</td>
+        <td>Hadir</td>
+        <td>Sakit</td>
+        <td>Hadir</td>
+        <td>Izin</td>
+        <td>Hadir</td>
+      </tr>
+    </table>
+
+    <!-- tag form untuk formulir -->
+    <form action="">
+      <!-- Input -->
+      <label>Nama</label><br />
+      <input type="text" name="nama" id="nama" /><br />
+      <label>Email</label><br />
+      <input type="email" name="mail" id="mail" /><br />
+      <label>Password</label><br />
+      <input type="password" name="pass" id="pass" /><br />
+      <label>Jenis Kelamin</label><br />
+      <input type="radio" name="jk" id="jk" value="Laki Laki" /> Laki Laki
+      <input type="radio" name="jk" id="jk" value="Perempuan" /> Perempuan<br />
+      <label>Matakuliah</label><br />
+      <input type="checkbox" name="mk" id="mk" value="Pemrograman Web 1" />
+      Pemrograman Web 1
+      <input type="checkbox" name="mk" id="mk" value="RPL" /> RPL
+      <input type="checkbox" name="mk" id="mk" value="Pemrograman Mobile" />
+      Pemrograman Mobile
+      <input type="checkbox" name="mk" id="mk" value="Pemrograman Dasar" />
+      Pemrograman Dasar
+      <br />
+
+      <label>Tanggal Lahir</label><br />
+      <input type="date" name="tgllahir" id="tgllahir" /><br />
+      <label>Pilih Warna</label><br />
+      <input type="color" name="warna" id="warna" /><br />
+      <label>Upload File</label><br />
+      <input type="file" name="file" id="file" /><br />
+      <label>Qty</label><br />
+      <input type="number" name="qty" id="qty" /><br />
+      <label>Ini Tersembunyi tapi ada</label><br />
+      <input type="hidden" name="hilang" id="hilang" value="Secret" /><br />
+      <label>1 - 100%</label><br />
+      <input type="range" name="range" id="range" value="50" /><br />
+      <label>Tombol Submit</label><br />
+      <input type="submit" name="submit" id="submit" /><br />
+      <label>Tombol Reset</label><br />
+      <input type="reset" name="reset" id="reset" /><br />
+
+      <!-- Input lainnya  -->
+      <label>Teks Area</label><br />
+      <textarea name="alamat" id="alamat" cols="30" rows="10"></textarea><br />
+
+      <label>Pilih Agama</label><br />
+      <select name="agama" id="agama">
+        <option value="">~ Pilih Agama</option>
+        <option value="Islam">Islam</option>
+        <option value="Kristen">Kristen</option>
+        <option value="Hindu">Budha</option>
+        <option value="Katolik">Katolik</option></select
+      ><br />
+
+      <label>Pilih Siswa</label><br />
+      <input list="datasiswa" name="siswa" id="siswa" />
+      <datalist id="datasiswa">
+        <option value="Rahmat">Rahmat</option>
+        <option value="Andi">Andi</option>
+        <option value="Bagas">Bagas</option>
+        <option value="Yasir">Yasir</option>
+        <option value="Asep">Asep</option></datalist
+      ><br /><br />
+      <button>Ini Tombol</button><br /><br />
+
+      <fieldset>
+        <legend>Pendaftaran</legend>
+        <label>Nama Lengkap</label><br />
+        <input type="text" name="" id="" /><br />
+        <label>Umur</label><br />
+        <input type="number" name="" id="" /><br /><br />
+        <button>Daftar</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
