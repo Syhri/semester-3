@@ -1,0 +1,43 @@
+h1 {
+  padding: 10px;
+}
+
+/* Flexbox */
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  padding: 20px;
+  border: 2px solid #333;
+}
+
+.flex-item {
+  background-color: #008f97;
+  color: white;
+  padding: 20px;
+  flex: 1;
+  margin: 5px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/* Grid */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  background-color: whitesmoke;
+  padding: 20px;
+  border: 2px solid black;
+}
+
+.grid-item {
+  background-color: #008f97;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
