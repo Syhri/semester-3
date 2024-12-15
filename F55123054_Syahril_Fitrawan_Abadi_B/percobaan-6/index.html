@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <nav class="bg-neutral-900 p-4">
+      <div class="container mx-auto">
+        <div class="flex item-center justify-between">
+          <a href="#" class="text-white text-lg font-bold">
+            <img src="img/logo.jpg" alt="logo" width="60px" />
+          </a>
+          <div class="flex space-x-4">
+            <a href="#" class="text-white">Home</a>
+            <a href="#" class="text-white">About</a>
+            <a href="#" class="text-white">Service</a>
+            <a href="#" class="text-white">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- membuat hero section  -->
+    <div
+      class="relative bg-cover bg-center h-screen"
+      style="background-image: url('img/sun.jpg')"
+    >
+      <div class="absolute inset-0 bg-black opacity-50"></div>
+      <div class="absolute inset-0 flex items-center justify-center">
+        <div class="text-center text-white">
+          <h1 class="text-4xl font-bold mb-4">
+            Hello, I'm Syahril Fitrawan Abadi
+          </h1>
+          <p class="text-lg">
+            <button
+              class="bg-transparent hover:bg-gray-200 text-white font-semibold py-2 px-4 border border-white hover:border-transparent hover:text-black rounded"
+            >
+              Join With Me
+            </button>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- membuat about me  -->
+    <section class="py-16">
+      <div class="container mx-auto">
+        <div class="flex flex-col md:flex-row item-center justify-center">
+          <div class="mb-6 md:mb-0 md:mr-6">
+            <img
+              class="w-32 h-32 rounded-full object-cover"
+              src="img/logo.jpg"
+              alt="Fitrawan"
+            />
+          </div>
+
+          <div>
+            <h2 class="text-3xl font-semibold mb-4">About Me</h2>
+            <p class="text-gray-600">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Veritatis, adipisci. Laboriosam reiciendis odit magni porro modi
+              eaque cumque libero? Culpa, nisi. Libero cupiditate neque hic at
+              voluptatum minus dolor distinctio! Dolorem, dignissimos hic
+              repellendus, assumenda quam.
+            </p>
+
+            <p class="text-gray-600 mt-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
+              debitis iure. Mollitia modi recusandae doloremque minus excepturi
+              architecto, commodi, cupiditate repellat laborum, tempore itaque
+              impedit nulla.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- membuat my services -->
+    <section class="py-16 bg-gray-200">
+      <div class="container mx-auto">
+        <h2 class="text-3xl font-semibold text-center mb-8">My Service</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="bg-white p-6 rounded-lg shadow-md flex item-center">
+            <div class="bg-blue-500 rounded-full p-3">
+              <svg
+                class="text-white w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 
+                  10-10S17.52 2 12 2zm-1 15h-1v-2h2v2zm0-4h-1V7h2v6z"
+                ></path>
+              </svg>
+            </div>
+            <div class="ml-4">
+              <h3 class="text-lg font-semibold">Service 1</h3>
+              <p class="text-gray-600">Description of service 1 goes here.</p>
+            </div>
+          </div>
+
+          <div class="bg-white p-6 rounded-lg shadow-md flex item-center">
+            <div class="bg-blue-500 rounded-full p-3">
+              <svg
+                class="text-white w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 
+                  10-4.48 10-10S17.52 2 12 2zm-1 15h-1v-2h2v2zm0-4h-1V7h2v6z"
+                ></path>
+              </svg>
+            </div>
+            <div class="ml-4">
+              <h3 class="text-lg font-semibold">Service 2</h3>
+              <p class="text-gray-600">Description of service 2 goes here.</p>
+            </div>
+          </div>
+
+          <div class="bg-white p-6 rounded-lg shadow-md flex item-center">
+            <div class="bg-blue-500 rounded-full p-3">
+              <svg
+                class="text-white w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 
+                  10-4.48 10-10S17.52 2 12 2zm-1 15h-1v-2h2v2zm0-4h-1V7h2v6z"
+                ></path>
+              </svg>
+            </div>
+            <div class="ml-4">
+              <h3 class="text-lg font-semibold">Service 3</h3>
+              <p class="text-gray-600">Description of service 3 goes here.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section Contact me -->
+    <section class="py-16">
+      <h2 class="text-3xl font-semibold text-center mb-8">Contact Me</h2>
+      <div
+        class="container mx-auto flex flex-col md:flex-row items-center justify-center"
+      >
+        <div class="mb-6 md:mb-0 md:mr-6 flex-col item-center">
+          <h2 class="text-3xl font-semibold mb-4">Contact Information</h2>
+          <div class="flex item-center mb-2">
+            <svg
+              class="w-6 h-6 text-blue-500"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M16.5 12a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 
+                0Zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 
+                21 12a9 9 0 1 0-2.636 6.364M16.5 12V8.25"
+              />
+            </svg>
+            <p>Email: syahrilfitrawanabadi@gmail.com</p>
+          </div>
+          <div class="flex item-center mb-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              class="w-6 h-6 text-blue-500"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 
+                0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 
+                17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"
+              />
+            </svg>
+            <p>Facebook: facebook.com/Syahrilfitrawanabadi</p>
+          </div>
+        </div>
+
+        <div class="flex-shrink-0 w-full md:w-1/2">
+          <form action="#" method="post" class="max-w-lg mx-auto">
+            <div class="mb-4">
+              <label
+                for="name"
+                class="block text-gray-700 text-sm font-bold mb-2"
+                >Name:</label
+              >
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500"
+                required
+              />
+            </div>
+
+            <div class="mb-4">
+              <label
+                for="email"
+                class="block text-gray-700 text-sm font-bold mb-2"
+                >Email:</label
+              >
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500"
+                required
+              />
+            </div>
+
+            <div class="mb-6">
+              <label
+                for="message"
+                class="block text-gray-700 text-sm font-bold mb-2"
+                >Message:</label
+              >
+              <textarea
+                name="message"
+                id="message"
+                rows="4"
+                class="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500"
+                required
+              ></textarea>
+            </div>
+
+            <button
+              type="submit"
+              class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-700 focus:outline-none focus:shadow-outline-blue"
+            >
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white p-16">
+      <div
+        class="container mx-auto flex flex-col md:flex-row items-center justify-between"
+      >
+        <div class="mb-4 md:mb-0">
+          <h1 class="text-2xl font-semibold">
+            <img src="img/logo.jpg" alt="logo" width="110px" />
+          </h1>
+        </div>
+        <div>
+          <p class="text-gray-300 hover:text-white px-2">
+            Copyright ©Syahril Fitrawan Bbadi 2024
+          </p>
+        </div>
+        <div class="flex items-center">
+          <div class="mr-6">
+            <a href="#" class="text-gray-300 hover:text-white px-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 
+                  7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 
+                  0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 
+                  1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                /></svg
+            ></a>
+          </div>
+          <div>
+            <p class="text-gray-300">Email: syahrilfitrawanabadi@email.com</p>
+            <p class="text-gray-300">Phone: +62 852-1909-4122</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
